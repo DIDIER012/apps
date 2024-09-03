@@ -1,0 +1,97 @@
+body {
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {  
+    display: flex; 
+    justify-content: center;   
+    align-items: center; 
+}  
+    
+    .contenedor {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 32%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 30px;
+    }
+
+    h1 {
+        color: #333;
+        margin-top: -20px;
+    }
+
+
+
+
+    #input {
+        font-size: 25px;
+        align-items: center;
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    #Agregar {
+        background-color: #4CAF50;
+        color: white;
+        cursor: pointer;
+        width: 150px;
+        align-items: center;
+        border-radius: 10px;
+        padding: 10px 10px;
+    }
+
+    #Agregar:hover {
+        background-color: #45a049;
+    }
+
+ul {
+    display: inline;
+}
+
+ul {  
+    list-style-type: none; 
+    padding: 0;  
+}  
+
+li {  
+    display: flex; 
+    justify-content: space-around;   
+    align-items: center;  
+    margin: 10px 0; 
+}  
+
+    .btn-delete {
+    border: none;
+    background-color: #e31746;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    outline: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 10%;
+    font-size: 1.2em;
+    }
+
+    .btn-delete:hover {
+    cursor: pointer;
+    background-color: lightseagreen;
+    }
+
+    #Agregar:hover {
+    cursor: pointer;
+    background-color: darkcyan;
+    }
+
+    .empty {
+    color: darkslategrey;
+    margin-left: 125px;
+    margin-top: 40px;
+    font-size: 20px;
+    }
